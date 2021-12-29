@@ -24,6 +24,8 @@ function init(){
 }
 init()
 
+
+
 // setInterval(function() {
 //     var nowDate = new Date();
 //     var month = nowDate.getMonth();

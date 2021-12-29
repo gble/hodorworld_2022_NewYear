@@ -7,12 +7,19 @@ a {
     text-decoration: none; /*<a>밑줄 제거*/
     color: orange;
 }
+a:hover {
+    color: rgb(182, 118, 0);
+    font-size: 70px;
+}
 .TopNav { 
     padding: 4px;
     font-size: 60px;
     float: center;
     background-color:transparent;
     width:100%;
+    text-decoration: none;
+    position: fixed;
+    top: 0;
 }
 #year {
     font-size: 140px;
@@ -22,6 +29,10 @@ a {
     font-size: 70px;
     text-align: center; 
 }
+#first {
+    float: center;
+}
+  
 /*CSS 반응형*/
 @media(max-width:800px) 
 {
@@ -33,7 +44,13 @@ a {
     background-color:transparent;
     width:100%;
     }
+
     img {
         object-fit:cover
+    }
+
+    a:hover {
+        color: rgb(182, 118, 0);
+        font-size: 50px;
     }
 }
