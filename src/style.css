@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+html {
+    background-color: white;
+    font-family: 'Black Han Sans', sans-serif;
+}
+a {
+    text-decoration: none; /*<a>밑줄 제거*/
+    color: orange;
+}
+.TopNav { 
+    padding: 4px;
+    font-size: 60px;
+    float: center;
+    background-color:transparent;
+    width:100%;
+}
+#year {
+    font-size: 140px;
+    text-align: center; 
+}
+#hour {
+    font-size: 70px;
+    text-align: center; 
+}
+/*CSS 반응형*/
+@media(max-width:800px) 
+{
+    .TopNav { /*nav에 적용될 반응형*/
+    position: fixed;
+    padding: 1px;
+    font-size: 40px;
+    float: center;
+    background-color:transparent;
+    width:100%;
+    }
+    img {
+        object-fit:cover
+    }
+}
