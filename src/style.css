@@ -2,6 +2,8 @@
 html {
     background-color: white;
     font-family: 'Black Han Sans', sans-serif;
+    top: 0;
+    margin: 0;
 }
 a {
     text-decoration: none; /*<a>밑줄 제거*/
@@ -15,7 +17,7 @@ a:hover {
     padding: 4px;
     font-size: 60px;
     float: center;
-    background-color:transparent;
+    background-color:white;
     width:100%;
     text-decoration: none;
     position: fixed;
@@ -29,20 +31,31 @@ a:hover {
     font-size: 70px;
     text-align: center; 
 }
+.memeOfThe2021 {
+    background-color: orange;
+}
+#forbes {
+    font-size: 70px;
+    text-align: center; 
+    padding: 30px;
+}
 #first {
-    float: center;
+    display: flex;
+    font-size: 50px;
 }
   
 /*CSS 반응형*/
 @media(max-width:800px) 
 {
     .TopNav { /*nav에 적용될 반응형*/
-    position: fixed;
-    padding: 1px;
-    font-size: 40px;
-    float: center;
-    background-color:transparent;
-    width:100%;
+        position: fixed;
+        padding: 1px;
+        font-size: 40px;
+        float: center;
+        background-color:white;
+        width:100%;
+        position: fixed;
+        top: 0;
     }
 
     img {
@@ -52,5 +65,22 @@ a:hover {
     a:hover {
         color: rgb(182, 118, 0);
         font-size: 50px;
+    }
+    #year {
+        font-size: 93px;
+        text-align: center; 
+    }
+    #hour {
+        font-size: 46px;
+        text-align: center; 
+    }
+    #forbes {
+        font-size: 46px;
+        text-align: center; 
+        padding: 30px;
+    }
+    #first {
+        display: flex;
+        font-size: 33px;
     }
 }
