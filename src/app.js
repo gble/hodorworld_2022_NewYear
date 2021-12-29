@@ -1,9 +1,9 @@
-var nowDate = new Date();
-var year = nowDate.getFullYear();	// 연도 가져오기
-var htmlHour = document.getElementById("hour"); //id 가져오고 htmlHour 변수에 넣기
-var htmlYear = document.getElementById("year");
+// var nowDate = new Date();
+// var year = nowDate.getFullYear();	// 연도 가져오기
+// var htmlHour = document.getElementById("hour"); //id 가져오고 htmlHour 변수에 넣기
+// var htmlYear = document.getElementById("year");
 
-htmlYear.innerHTML=year + "년"; //년도 띄우기
+// htmlYear.innerHTML=year + "년"; //년도 띄우기
 
 document.querySelector("#year").innerHTML = new Date().getFullYear() + "년";
 setInterval(() => {
