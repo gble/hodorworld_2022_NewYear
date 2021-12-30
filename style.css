@@ -33,6 +33,7 @@ a:hover {
 }
 .memeOfThe2021 {
     background-color: orange;
+    text-align: center;
 }
 #forbes {
     font-size: 70px;
@@ -40,8 +41,20 @@ a:hover {
     padding: 30px;
 }
 #first {
-    display: flex;
+    display: block;
     font-size: 50px;
+}
+#second {
+    display: block;
+    font-size: 50px;
+}
+#third {
+    display: block;
+    font-size: 50px;
+    text-align: center;
+}
+#endMeme {
+    font-size: 75px
 }
   
 /*CSS 반응형*/
@@ -74,13 +87,39 @@ a:hover {
         font-size: 46px;
         text-align: center; 
     }
+    .memeOfThe2021 {
+        background-color: orange;
+        text-align: center;
+    }
     #forbes {
         font-size: 46px;
-        text-align: center; 
         padding: 30px;
     }
     #first {
-        display: flex;
-        font-size: 33px;
+        display: block;
+        font-size: 30px;
+    }
+    #dogeAndElonJpg {
+        width: 340px;
+        height: 340px;
+    }
+    #second {
+        display: block;
+        font-size: 30px;
+    }
+    #muyahoJpg {
+        width: 340px;
+        height: 340px;
+    }
+    #third {
+        display: block;
+        font-size: 30px;
+    }
+    #STOPJpg {
+        width: 340px;
+        height: 340px;
+    }
+    #endMeme {
+        font-size: 50px
     }
 }
