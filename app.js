@@ -1,7 +1,9 @@
 var nowDate = new Date();
-var year = nowDate.getFullYear();	// 연도 가져오기
-var htmlHour = document.getElementById("hour"); //id 가져오고 htmlHour 변수에 넣기
+var year = nowDate.getFullYear();
+// var year = 2022; //테스트시 사용
+var htmlHour = document.getElementById("hour"); 
 var htmlYear = document.getElementById("year");
+var htmlHappyNewYear = document.getElementById("happyNewYear");
 
 htmlYear.innerHTML=year + "년"; //년도 띄우기
 
@@ -24,8 +26,12 @@ function init(){
 }
 init()
 
+if (year === 2022){
+    htmlHappyNewYear.innerHTML="2022! <br> HAPPY NEW <br> YEAR!" + "<br> <a href=happyNewYear.html>2022년 홈 <br>보러가기!</a>";
+}
 
 
+// clock by ny
 // setInterval(function() {
 //     var nowDate = new Date();
 //     var month = nowDate.getMonth();

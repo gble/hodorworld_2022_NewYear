@@ -9,7 +9,7 @@ a {
     text-decoration: none; /*<a>밑줄 제거*/
     color: orange;
 }
-a:hover {
+.TopNav a:hover {
     color: rgb(182, 118, 0);
     font-size: 70px;
 }
@@ -53,8 +53,29 @@ a:hover {
     font-size: 50px;
     text-align: center;
 }
-#endMeme {
-    font-size: 75px
+#happyNewYear {
+    font-size: 140px;
+    text-align: center;
+}
+#happyNewYear a:hover {
+    font-size: 150px;
+    color: rgb(182, 118, 0);
+}
+/* 여기부터 새해 2022 페이지 파트 */
+#HelloNewYear {
+    font-size: 140px;
+    text-align: center;
+    color: orange;
+}
+
+#yearExp {
+    text-align: center;
+    background: linear-gradient(white, orange);
+}
+#hodorworldNameExp {
+    padding-top: 100px;
+    font-size: 35px;
+    color: white;
 }
   
 /*CSS 반응형*/
@@ -75,7 +96,7 @@ a:hover {
         object-fit:cover
     }
 
-    a:hover {
+    .TopNav a:hover {
         color: rgb(182, 118, 0);
         font-size: 50px;
     }
@@ -119,7 +140,27 @@ a:hover {
         width: 340px;
         height: 340px;
     }
-    #endMeme {
-        font-size: 50px
+    #happyNewYear {
+        font-size: 90px;
+        text-align: center;
+    }
+    #happyNewYear a:hover {
+        font-size: 100px;
+        color: rgb(182, 118, 0);
+    }
+    /* 여기부터 2022 새해 페이지 반응형 파트 */
+    #HelloNewYear {
+        font-size: 100px;
+        text-align: center;
+        color: orange;
+    }
+    #hodorworldNameExp {
+        padding-top: 100px;
+        font-size: 30px;
+        color: white;
+    }
+    #hodorworldLogo {
+        width: 340px;
+        height: 133.233px;
     }
 }
