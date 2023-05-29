@@ -26,7 +26,7 @@ function init(){
 }
 init()
 
-if (year === 2022){
+if (year >= 2022){
     htmlHappyNewYear.innerHTML="2022! <br> HAPPY NEW <br> YEAR!" + "<br> <a href=happyNewYear.html>2022년 홈 <br>보러가기!</a>";
 }
 
